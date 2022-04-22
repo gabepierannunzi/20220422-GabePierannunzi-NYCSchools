@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D8CE37DE281336740016E582 /* _0220422_GabePierannunzi_NYCSchoolsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37DD281336740016E582 /* _0220422_GabePierannunzi_NYCSchoolsApp.swift */; };
+		D8CE37E0281336740016E582 /* SchoolsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37DF281336740016E582 /* SchoolsListView.swift */; };
+		D8CE37E2281336750016E582 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CE37E1281336750016E582 /* Assets.xcassets */; };
+		D8CE37E5281336750016E582 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8CE37E4281336750016E582 /* Preview Assets.xcassets */; };
+		D8CE37F0281346E10016E582 /* SchoolsListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37EF281346E10016E582 /* SchoolsListItem.swift */; };
+		D8CE37F2281346EC0016E582 /* SchoolView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37F1281346EC0016E582 /* SchoolView.swift */; };
+		D8CE37F4281346F50016E582 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37F3281346F50016E582 /* ProgressView.swift */; };
+		D8CE37F6281346FE0016E582 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37F5281346FE0016E582 /* InfoView.swift */; };
+		D8CE37F82813472A0016E582 /* ListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37F72813472A0016E582 /* ListModel.swift */; };
+		D8CE37FA281347360016E582 /* SchoolModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37F9281347360016E582 /* SchoolModel.swift */; };
+		D8CE37FD2813474D0016E582 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37FC2813474D0016E582 /* School.swift */; };
+		D8CE37FF281347530016E582 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE37FE281347530016E582 /* Score.swift */; };
+		D8CE38012813475A0016E582 /* ScoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE38002813475A0016E582 /* ScoreData.swift */; };
+		D8CE3803281347800016E582 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE3802281347800016E582 /* Colors.swift */; };
+		D8CE3805281347860016E582 /* Animations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE3804281347860016E582 /* Animations.swift */; };
+		D8CE38072813478B0016E582 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8CE38062813478B0016E582 /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D8CE37DA281336740016E582 /* 20220422-GabePierannunzi-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20220422-GabePierannunzi-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8CE37DD281336740016E582 /* _0220422_GabePierannunzi_NYCSchoolsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220422_GabePierannunzi_NYCSchoolsApp.swift; sourceTree = "<group>"; };
+		D8CE37DF281336740016E582 /* SchoolsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsListView.swift; sourceTree = "<group>"; };
+		D8CE37E1281336750016E582 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D8CE37E4281336750016E582 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8CE37EF281346E10016E582 /* SchoolsListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsListItem.swift; sourceTree = "<group>"; };
+		D8CE37F1281346EC0016E582 /* SchoolView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolView.swift; sourceTree = "<group>"; };
+		D8CE37F3281346F50016E582 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		D8CE37F5281346FE0016E582 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		D8CE37F72813472A0016E582 /* ListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListModel.swift; sourceTree = "<group>"; };
+		D8CE37F9281347360016E582 /* SchoolModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolModel.swift; sourceTree = "<group>"; };
+		D8CE37FC2813474D0016E582 /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		D8CE37FE281347530016E582 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		D8CE38002813475A0016E582 /* ScoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreData.swift; sourceTree = "<group>"; };
+		D8CE3802281347800016E582 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		D8CE3804281347860016E582 /* Animations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animations.swift; sourceTree = "<group>"; };
+		D8CE38062813478B0016E582 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D8CE37D7281336740016E582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D8CE37D1281336740016E582 = {
+			isa = PBXGroup;
+			children = (
+				D8CE37DC281336740016E582 /* 20220422-GabePierannunzi-NYCSchools */,
+				D8CE37DB281336740016E582 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D8CE37DB281336740016E582 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE37DA281336740016E582 /* 20220422-GabePierannunzi-NYCSchools.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D8CE37DC281336740016E582 /* 20220422-GabePierannunzi-NYCSchools */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE37DD281336740016E582 /* _0220422_GabePierannunzi_NYCSchoolsApp.swift */,
+				D8CE37EB281346930016E582 /* Views */,
+				D8CE37EC281346990016E582 /* View Models */,
+				D8CE37ED281346A10016E582 /* Models */,
+				D8CE37EE281346AB0016E582 /* Utils */,
+				D8CE37E1281336750016E582 /* Assets.xcassets */,
+				D8CE37E3281336750016E582 /* Preview Content */,
+			);
+			path = "20220422-GabePierannunzi-NYCSchools";
+			sourceTree = "<group>";
+		};
+		D8CE37E3281336750016E582 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE37E4281336750016E582 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8CE37EB281346930016E582 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE37DF281336740016E582 /* SchoolsListView.swift */,
+				D8CE37EF281346E10016E582 /* SchoolsListItem.swift */,
+				D8CE37F1281346EC0016E582 /* SchoolView.swift */,
+				D8CE37F3281346F50016E582 /* ProgressView.swift */,
+				D8CE37F5281346FE0016E582 /* InfoView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D8CE37EC281346990016E582 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE37F72813472A0016E582 /* ListModel.swift */,
+				D8CE37F9281347360016E582 /* SchoolModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		D8CE37ED281346A10016E582 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE37FC2813474D0016E582 /* School.swift */,
+				D8CE37FE281347530016E582 /* Score.swift */,
+				D8CE38002813475A0016E582 /* ScoreData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D8CE37EE281346AB0016E582 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D8CE3802281347800016E582 /* Colors.swift */,
+				D8CE3804281347860016E582 /* Animations.swift */,
+				D8CE38062813478B0016E582 /* API.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D8CE37D9281336740016E582 /* 20220422-GabePierannunzi-NYCSchools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8CE37E8281336750016E582 /* Build configuration list for PBXNativeTarget "20220422-GabePierannunzi-NYCSchools" */;
+			buildPhases = (
+				D8CE37D6281336740016E582 /* Sources */,
+				D8CE37D7281336740016E582 /* Frameworks */,
+				D8CE37D8281336740016E582 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20220422-GabePierannunzi-NYCSchools";
+			productName = "20220422-GabePierannunzi-NYCSchools";
+			productReference = D8CE37DA281336740016E582 /* 20220422-GabePierannunzi-NYCSchools.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D8CE37D2281336740016E582 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					D8CE37D9281336740016E582 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D8CE37D5281336740016E582 /* Build configuration list for PBXProject "20220422-GabePierannunzi-NYCSchools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D8CE37D1281336740016E582;
+			productRefGroup = D8CE37DB281336740016E582 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D8CE37D9281336740016E582 /* 20220422-GabePierannunzi-NYCSchools */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D8CE37D8281336740016E582 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CE37E5281336750016E582 /* Preview Assets.xcassets in Resources */,
+				D8CE37E2281336750016E582 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D8CE37D6281336740016E582 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8CE37E0281336740016E582 /* SchoolsListView.swift in Sources */,
+				D8CE3803281347800016E582 /* Colors.swift in Sources */,
+				D8CE37DE281336740016E582 /* _0220422_GabePierannunzi_NYCSchoolsApp.swift in Sources */,
+				D8CE37F4281346F50016E582 /* ProgressView.swift in Sources */,
+				D8CE37F2281346EC0016E582 /* SchoolView.swift in Sources */,
+				D8CE37FF281347530016E582 /* Score.swift in Sources */,
+				D8CE38072813478B0016E582 /* API.swift in Sources */,
+				D8CE37FD2813474D0016E582 /* School.swift in Sources */,
+				D8CE3805281347860016E582 /* Animations.swift in Sources */,
+				D8CE37F82813472A0016E582 /* ListModel.swift in Sources */,
+				D8CE37FA281347360016E582 /* SchoolModel.swift in Sources */,
+				D8CE37F6281346FE0016E582 /* InfoView.swift in Sources */,
+				D8CE38012813475A0016E582 /* ScoreData.swift in Sources */,
+				D8CE37F0281346E10016E582 /* SchoolsListItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D8CE37E6281336750016E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D8CE37E7281336750016E582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8CE37E9281336750016E582 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20220422-GabePierannunzi-NYCSchools/Preview Content\"";
+				DEVELOPMENT_TEAM = 3393HYJYL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabethecoder.-0220422-GabePierannunzi-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D8CE37EA281336750016E582 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"20220422-GabePierannunzi-NYCSchools/Preview Content\"";
+				DEVELOPMENT_TEAM = 3393HYJYL3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabethecoder.-0220422-GabePierannunzi-NYCSchools";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D8CE37D5281336740016E582 /* Build configuration list for PBXProject "20220422-GabePierannunzi-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CE37E6281336750016E582 /* Debug */,
+				D8CE37E7281336750016E582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8CE37E8281336750016E582 /* Build configuration list for PBXNativeTarget "20220422-GabePierannunzi-NYCSchools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8CE37E9281336750016E582 /* Debug */,
+				D8CE37EA281336750016E582 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D8CE37D2281336740016E582 /* Project object */;
+}
